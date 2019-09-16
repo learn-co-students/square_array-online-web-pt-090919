@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  square = []
+  array.each do |n|
+  puts n * n
+  square << n * n
+  end
+  square
 end
